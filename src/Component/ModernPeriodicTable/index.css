@@ -1,0 +1,93 @@
+.table-elements{
+  margin: 0 auto;
+  color: currentColor;
+  font-size: 8px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-rows: repeat(7,1fr);
+  grid-gap: 8px;
+  
+}
+
+.lanthanoides{
+  margin: 0 auto;
+  color: currentColor;
+  font-size: 8px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(18,1fr);
+  grid-gap: 8px;
+
+}
+
+.actinoides{
+    margin: 0 auto;
+    color: currentColor;
+    font-size: 8px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(18,1fr);
+    grid-gap: 8px;
+}
+
+.card-element{
+  height: 55px;
+  width: 55px;
+  display: flex;
+  flex-direction: column;
+  /* background-color:yellowgreen; */
+  background-color: #20B2AA;
+  /* background-color: teal; */
+  justify-content: space-evenly;
+}
+.period1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap:8px;
+}
+.period2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap:8px; 
+}
+.period2-left-elements{
+  display: flex;
+  flex-direction: row;
+  gap:8px;
+}
+.period3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap:8px;
+}
+.period4{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap:8px;
+}
+.period5{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap:8px;
+}
+.period6{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap:8px;
+}
+.period7{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap:8px;
+}
+

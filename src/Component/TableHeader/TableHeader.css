@@ -1,0 +1,22 @@
+.table-header{
+  margin: 0 auto;
+  color: currentColor;
+  font-size: 8px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(18,1fr);
+  grid-gap: 8px;
+
+}
+
+.card-elements{
+  /* height: 55px; */
+  width: 55px;
+  font-weight: 600;
+  color:#c9ccd1;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
